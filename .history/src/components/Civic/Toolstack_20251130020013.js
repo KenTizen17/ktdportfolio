@@ -1,5 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
+import macOs from "../../Assets/TechIcons/Apple MacOSX.svg";
+import chrome from "../../Assets/TechIcons/Google Chrome.svg";
 import whatsapp from "../../Assets/TechIcons/icons8-whatsapp.svg";
 import kumo from "../../Assets/TechIcons/kumo.png";
 

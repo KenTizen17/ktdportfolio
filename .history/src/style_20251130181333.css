@@ -91,7 +91,7 @@ button:focus {
   position: fixed !important;
   transition: all 0.3s ease-out 0s !important;
   padding: 0.3rem 2rem !important;
-  font-size: 0.9rem !important;
+  font-size: 1.2rem !important;
 }
 
 .navbar-toggler {
@@ -111,6 +111,23 @@ button:focus {
   left: 0 !important;
   opacity: 1 !important;
 }
+
+.navbar .navbar-brand {
+  white-space: nowrap;       /* Prevent text from wrapping */
+  display: flex;             /* Keep image and text inline */
+  align-items: center;       /* Vertically center items */
+}
+
+.navbar .navbar-brand img {
+  max-height: 50px;          /* Adjust logo size */
+  margin-right: 0.5rem;      /* Space between logo and text if needed */
+}
+
+
+.navbar .navbar-collapse {
+  flex-wrap: nowrap;         /* Prevent nav items from wrapping inside collapse */
+}
+
 
 .navbar-toggler:focus,
 .navbar-toggler:active {

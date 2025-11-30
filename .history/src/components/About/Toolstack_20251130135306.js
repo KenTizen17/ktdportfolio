@@ -1,5 +1,9 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
+import macOs from "../../Assets/TechIcons/Apple MacOSX.svg";
+import chrome from "../../Assets/TechIcons/Google Chrome.svg";
+import vsCode from "../../Assets/TechIcons/vscode.svg";
+import intelliJ from "../../Assets/TechIcons/intellij-idea.svg";
 import windows from "../../Assets/TechIcons/icons8-windows-11.svg";
 import kali from "../../Assets/TechIcons/kalilinux-svgrepo-com.svg";
 import parrot from "../../Assets/TechIcons/icons8-parrot-security.svg";

@@ -87,7 +87,7 @@ function NavBar() {
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Sustainability & Career Development
+                <CgFileDocument style={{ marginBottom: "2px" }} /> Career Development
               </Nav.Link>
             </Nav.Item>
 
@@ -97,7 +97,7 @@ function NavBar() {
                 to="/civic"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Civic Engagement
+                <CgFileDocument style={{ marginBottom: "2px" }} /> Sustainability & Civic Engagement
               </Nav.Link>
             </Nav.Item>
 
