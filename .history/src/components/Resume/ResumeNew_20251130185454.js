@@ -3,7 +3,7 @@ import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import pdf from "../../Assets/Ken_TIZEN-CEP.pdf";
-import bib from "../../Assets/Ken-CEPBibliography.pdf";
+import pdf from "../../Assets/Ken-CEPBibliography.pdf";
 import cvenglish from "../../Assets/CVKEN.pdf";
 import cvfrench from "../../Assets/CVKENFrench1.pdf"
 import { AiOutlineDownload } from "react-icons/ai";
@@ -76,11 +76,11 @@ function ResumeNew() {
         </Row>
 
         <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-               <strong className="purple">CEP Bibliography</strong>
+               <strong className="purple">Bibliography</strong>
         </h1>
 
         <Row className="resume">
-          <Document file={bib} className="d-flex justify-content-center">
+          <Document file={pdf} className="d-flex justify-content-center">
             <Page pageNumber={1} scale={width > 786 ? 1  : 0.9} />
           </Document>
         </Row>

@@ -76,7 +76,7 @@ function ResumeNew() {
         </Row>
 
         <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-               <strong className="purple">CEP Bibliography</strong>
+               <strong className="purple">Bibliography</strong>
         </h1>
 
         <Row className="resume">
